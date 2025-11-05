@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var elephantRouter = require('./routes/elephant');
 var gridRouter = require('./routes/grid');
+var randomRouter = require('./routes/pick');
 
 var app = express();
 
@@ -25,6 +26,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/elephant', elephantRouter);
 app.use('/grid', gridRouter);
+app.use('/randomitem', randomRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
