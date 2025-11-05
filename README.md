@@ -2,7 +2,7 @@
 
 https://f25wb05greenlee.onrender.com
 
-Class: 
+Class:
     Elephant
 Attributes:
     elephant_name
